@@ -1,0 +1,85 @@
+body{
+     text-align: center;
+     color: rgb(253, 253, 253);
+     background: radial-gradient(circle, rgb(131, 127, 255), rgb(53, 0, 0));
+     margin: auto;
+}
+h1{
+    font-size: 100pX;
+}
+.box{
+    /* width: 400px;
+    height: 400px; */
+     margin: auto;
+    text-align: center;
+   
+}
+.board{
+    margin-left: 50%;
+    /* width: 100px;
+    height: 100px; */
+    cursor: pointer;
+    margin: auto;
+    
+}
+
+.cell{
+    width: 70px;
+    height: 70px;
+    
+}
+
+.cellImg{
+    width: 70px;
+    height:70px;
+    
+}
+
+.restGame{
+    margin-bottom: 20px;
+    background-color: rgb(255, 0, 242);
+    font-size: 80px;
+    border-color: azure;
+    
+}
+.levelGame{
+    background-color: rgb(255, 0, 242);
+    font-size: medium;
+    border-radius: 100px;
+    color: aliceblue;
+    border-color: azure;
+    
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    margin-bottom: 60%;
+}
+
+.main-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.buttons-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    padding-bottom: 15px;
+}
+.button1{
+    background-color: rgb(255, 0, 242);
+    font-size: medium;
+    border-radius: 100px;
+    color: aliceblue;
+    border-color: azure;
+    
+}
